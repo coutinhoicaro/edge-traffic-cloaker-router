@@ -1,0 +1,14 @@
+{
+  "name": "edge-traffic-cloaker-router",
+  "version": "1.0.0",
+  "description": "High-Performance Cloudflare Workers Edge Router, Anti-Bot Filter & Dynamic Quarantine Engine",
+  "main": "src/worker.js",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

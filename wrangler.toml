@@ -1,0 +1,7 @@
+name = "edge-traffic-cloaker-router"
+main = "src/worker.js"
+compatibility_date = "2026-08-01"
+
+kv_namespaces = [
+  { binding = "QUARENTENA", id = "your_kv_namespace_id_here" }
+]
